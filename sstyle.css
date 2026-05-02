@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.NAVIGATION-BAR {
+  background-color: rgb(54, 54, 54);
+  width: 100%;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 100;
+}
+.img-and-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: center;
+}
+.admlogo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500px;
+  font-size: 27px;
+  color: white;
+}
+.btrfylogo {
+  padding-top: 16px;
+  padding-left: 8.9px;
+  height: 63.7px;
+  width: 63.7px;
+}
+.img {
+  height: 80.1px;
+  width: 80px;
+  background-color: rgb(169, 46, 81);
+}
+.img:hover {
+  background-color: rgb(180, 51, 88);
+}
+.random-texts {
+  padding-left: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 48px;
+  align-items: center;
+}
+.dis {
+  border: 1px solid rgb(54, 54, 54);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500px;
+  font-size: 20px;
+  color: white;
+  padding: 12px 32px 12px 32px;
+}
+.play-btn {
+  background-color: rgb(225, 78, 119);
+  border: 1px solid rgb(225, 78, 119);
+  border-radius: 20px;
+  width: 175px;
+  height: 60px;
+}
+.play {
+  width: 35px;
+  height: 35px;
+  color: white;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.sun-icon-thingy {
+  background-color: rgb(225, 78, 119);
+  border: 1px solid rgb(225, 78, 119);
+  border-radius: 20px;
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+.sun {
+  width: 45px;
+  height: 45px;
+  color: white;
+}
+.dis:hover {
+  background-color: rgb(225, 78, 119);
+  border: 1px solid rgb(225, 78, 119);
+  border-radius: 20px;
+  padding: 12px 32px 12px 32px;
+  transition-duration: 500ms;
+  transition-property: background-color;
+}
+.book-part1 {
+  /* width: 550px;
+  height: 700px;
+  padding: 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-image: url("https://www.playadopt.me/_next/static/media/Background-Book-Table.00ec96d6.webp");
+  margin: auto;
+  flex-direction: column;
+  gap: 10px;
+  height: 100vh;
+}
+.pets1 {
+  display: flex;
+  flex-direction: row;
+  /* margin-top: 50px;
+    gap: 20px; */
+  width: 100%;
+  margin-left: 1050px;
+}
+.search-and-stuff {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  gap: 50px;
+  /* margin-left: 400px;
+    margin-top: 100px; */
+}
+.search {
+  clip-path: polygon(0 0, 100% 0%, 97% 100%, 0% 100%);
+  border: 5px hotpink solid;
+}
+.rarity {
+  clip-path: polygon(0 0, 100% 0%, 97% 100%, 0% 100%);
+  border: 5px hotpink solid;
+}
+.alphabetical {
+  clip-path: polygon(0 0, 100% 0%, 97% 100%, 0% 100%);
+  border: 5px hotpink solid;
+}
+.pets2 {
+  /* background-color: aquamarine; */
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  gap:10px;
+  flex-wrap:wrap;
+  padding:20px;
+  height: 450px;
+  width: 500px;
+  overflow-y: scroll;
+  mask-image : linear-gradient(to bottom, transparent 0%, black 2%);
+}
+
+.bluecard{
+  width:200px;
+  height:180px;
+  background-color: deepskyblue;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding:10px;
+  animation: pulse;
+  --animate-repeat: 2;
+}
+.greencard{
+  width:200px;
+  height:180px;
+  background-color: lawngreen;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding:10px;
+}
+.purplecard{
+  width:200px;
+  height:180px;
+  background-color: darkorchid;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding:10px;
+}
+.cardblue{
+  width:200px;
+  height:180px;
+  background-color: deepskyblue;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding:10px;
+}
+.purplecard{
+  width:200px;
+  height:180px;
+  background-color: darkorchid;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding:10px;
+}
+.purplecard{
+  width:200px;
+  height:180px;
+  background-color: darkorchid;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding:10px;
+}
+.image-photo {
+  width:120px;
+  background-color: white;
+}
+.image-text{
+  font-size: 19px;
+  
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  background-color: rgb(63, 63, 63);
+  width: 100%;
+  height: 500px;
+}
+.apps{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 40px;
+  gap: 10px;
+}
+.discord{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(151, 79, 187);
+  border: 1px rgb(151, 79, 187) solid;
+  border-radius: 50px;
+}
+.instagram{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: deeppink;
+  border: 1px deeppink solid;
+  border-radius: 50px;
+}
+.twitter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: deepskyblue;
+  border: 1px deepskyblue solid;
+  border-radius: 50px;
+}
+.youtube{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border: 1px red solid;
+  border-radius: 50px;
+}
+.tiktok{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border: 1px white solid;
+  border-radius: 50px;
+}
+.final-text{
+  color: greenyellow;
+}
